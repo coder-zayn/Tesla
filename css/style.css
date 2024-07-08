@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background: transparent;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/heder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-btns{
+    position: absolute;
+    top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+#sec1{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/secrion1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#sec2{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+#sec3{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+#sec4{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#sec5{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section5.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+#sec6{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+#sec7{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section7.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+#sec8{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/section8.png");
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    .icon_div {
+        display: none !important;
+    }
+}
+input{
+    margin: 15px 0;
+}
+.submit{
+    padding: 8px 15px;
+    letter-spacing: 2px;
+}
